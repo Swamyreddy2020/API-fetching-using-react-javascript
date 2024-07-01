@@ -1,0 +1,77 @@
+/* CatBreeds.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 0;
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  color: black;
+  margin: 0;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border-bottom: 1px solid white;
+  padding: 0 20px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+h2 {
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+p {
+  margin: 4px 20px;
+  color: black;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: none; /* Changed from 'mintcream' to 'none' */
+  padding: 5px;
+  margin: 8px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgray; /* Added a slight change on hover for visual feedback */
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button:disabled {
+  background-color: lightgray; /* Slight change for disabled buttons */
+  cursor: not-allowed;
+}
